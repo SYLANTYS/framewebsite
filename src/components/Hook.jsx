@@ -9,10 +9,10 @@ export default function Hook() {
       id="home"
       className="text-center py-20 pb-40 text-white bg-radial-[at_60%_50%] from-zinc-700 to-black to-75%"
     >
-      <h2 className="text-5xl font-bold mb-4">Think Better. Stay Organized.</h2>
+      <h2 className="text-5xl font-bold mb-4">Speak Better on Camera.</h2>
       <p className="max-w-xl mx-auto mb-6 text-lg">
-        FRAME helps you capture ideas, organize topics, record insights, and
-        review your progress in one focused workspace.
+        Record or upload a practice video, get AI feedback on engagement,
+        clarity, and confidence, then track your progress as you improve.
       </p>
       <div className="flex justify-center">
         <DownloadButton scale="scale-125" />

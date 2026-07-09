@@ -13,7 +13,7 @@ export default function Home() {
 
       <section className="py-20 pb-20 text-white bg-linear-155 from-black to-gray-900">
         <div className="text-center">
-          <h3 className="text-5xl">What does FRAME include?</h3>
+          <h3 className="text-5xl">What Does FRAME Include?</h3>
         </div>
         <InteractiveStepSection />
       </section>

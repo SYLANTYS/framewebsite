@@ -8,7 +8,9 @@ export default function Footer() {
         {/* Left Section: Logo/Tagline + Download */}
         <div className="flex flex-col gap-4">
           <Logo />
-          <p className="text-sm text-gray-400 mt-2">Download FRAME</p>
+          <p className="text-sm text-gray-400 mt-2">
+            Practice speaking with FRAME
+          </p>
           <div className="text-md">
             <DownloadButton />
           </div>

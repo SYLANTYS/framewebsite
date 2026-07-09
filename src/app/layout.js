@@ -2,7 +2,8 @@ import "./globals.css";
 
 export const metadata = {
   title: "FRAME",
-  description: "A focused workspace for topics, records, feedback, and analytics",
+  description:
+    "An AI speaking coach for practicing on camera, reviewing delivery, and tracking progress over time.",
   icons: {
     icon: "/favicon.ico",
   },

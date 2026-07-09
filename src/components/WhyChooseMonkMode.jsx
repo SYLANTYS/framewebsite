@@ -17,24 +17,24 @@ export default function WhyChooseMonkMode() {
     <section className="py-20 pb-40 bg-gray-300 text-black text-center">
       <h3 className="text-5xl mb-2">Why Choose FRAME?</h3>
       <p className="text-lg mb-20 text-zinc-700">
-        FRAME keeps your personal growth tools clean, visual, and easy to
-        revisit.
+        FRAME turns speaking practice into a clear loop: record, review,
+        improve, and repeat.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
         <ReasonCard
           icon={SparkleIcon}
-          title="Capture More Clearly"
-          desc="FRAME keeps your thoughts, entries, and media close together so it is easier to return to what matters."
+          title="Practice With Structure"
+          desc="FRAME helps you prepare around your goals, speaking style, pacing, and the kind of communicator you want to become."
         />
         <ReasonCard
           icon={LinkSimpleIcon}
-          title="Stay Connected"
-          desc="Topics, records, feedback, and analytics work together instead of living in separate places."
+          title="Understand Your Delivery"
+          desc="AI feedback breaks your speaking into clear areas like engagement, clarity, confidence, clips, and transcript-based insights."
         />
         <ReasonCard
           icon={BrainIcon}
-          title="Build Better Patterns"
-          desc="Review your progress over time so reflection turns into momentum."
+          title="Improve Over Time"
+          desc="Track practice history, streaks, scores, and recording stats so every session builds toward better communication."
         />
       </div>
     </section>

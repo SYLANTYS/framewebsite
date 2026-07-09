@@ -6,28 +6,28 @@ import Image from "next/image";
 
 const steps = [
   {
-    title: "Organize Topics",
-    text: "Keep ideas grouped into clean topics so every thread, note, or reflection has a place to live.",
+    title: "Always know what to say",
+    text: "Swipe through speaking ideas and choose a prompt whenever you need inspiration.",
     image: "/images/topics.png",
   },
   {
-    title: "Record What Matters",
-    text: "Capture moments and thoughts quickly so important context does not disappear between sessions.",
+    title: "Practice with every recording",
+    text: "Record a new video or upload one from your library to start practicing.",
     image: "/images/record.png",
   },
   {
-    title: "Reflect With Feedback",
-    text: "Review feedback in a focused view that helps you understand patterns and keep improving.",
+    title: "Understand your best moments",
+    text: "Explore your strongest clips, scores, and personalized speaking feedback. Save and share your favorite moments.",
     image: "/images/feedback.png",
   },
   {
-    title: "Track Your Analytics",
-    text: "See progress and activity at a glance with analytics that make your habits easier to understand.",
+    title: "Measure improvement over time",
+    text: "Monitor your scores, weekly goals, streaks, and practice over time.",
     image: "/images/analytics.png",
   },
   {
-    title: "Review Your Gallery",
-    text: "Browse saved moments and visual entries in one gallery so your history is easy to revisit.",
+    title: "Build a lasting speaking habit",
+    text: "Build a library of recordings and watch your confidence grow with practice.",
     image: "/images/gallery.png",
   },
 ];
