@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hook from "@/components/Hook";
 import InteractiveStepSection from "@/components/InteractiveStepSection";
-import WhyChooseMonkMode from "@/components/WhyChooseMonkMode";
+import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <InteractiveStepSection />
       </section>
 
-      <WhyChooseMonkMode />
+      <WhyChoose />
 
       <Footer />
     </div>

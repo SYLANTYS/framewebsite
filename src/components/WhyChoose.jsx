@@ -1,6 +1,10 @@
 "use client";
 
-import { SparkleIcon, LinkSimpleIcon, BrainIcon } from "@phosphor-icons/react";
+import {
+  ChartLineUpIcon,
+  MicrophoneStageIcon,
+  TargetIcon,
+} from "@phosphor-icons/react";
 
 function ReasonCard({ icon: Icon, title, desc }) {
   return (
@@ -12,7 +16,7 @@ function ReasonCard({ icon: Icon, title, desc }) {
   );
 }
 
-export default function WhyChooseMonkMode() {
+export default function WhyChoose() {
   return (
     <section className="py-20 pb-40 bg-gray-300 text-black text-center">
       <h3 className="text-5xl mb-2">Why Choose FRAME?</h3>
@@ -22,17 +26,17 @@ export default function WhyChooseMonkMode() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
         <ReasonCard
-          icon={SparkleIcon}
+          icon={TargetIcon}
           title="Practice With Structure"
           desc="FRAME helps you prepare around your goals, speaking style, pacing, and the kind of communicator you want to become."
         />
         <ReasonCard
-          icon={LinkSimpleIcon}
+          icon={MicrophoneStageIcon}
           title="Understand Your Delivery"
-          desc="AI feedback breaks your speaking into clear areas like engagement, clarity, confidence, clips, and transcript-based insights."
+          desc="AI feedback breaks your speaking into clips with clear subscores such as engagement, clarity, and confidence. These are based on your words and physical appearance."
         />
         <ReasonCard
-          icon={BrainIcon}
+          icon={ChartLineUpIcon}
           title="Improve Over Time"
           desc="Track practice history, streaks, scores, and recording stats so every session builds toward better communication."
         />
