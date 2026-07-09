@@ -13,7 +13,7 @@ export default function Logo() {
           className={`rounded object-contain transition-opacity duration-500`}
         />
         <p
-          className={`max-h-[24px] text-white text-xl font-semibold tracking-wider transition-opacity duration-500`}
+          className={`text-white text-xl font-semibold tracking-wider transition-opacity duration-500`}
         >
           FRAME
         </p>
