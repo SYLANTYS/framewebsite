@@ -31,39 +31,11 @@ export default function HelpPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-4">
-            Subscriptions & Billing
-          </h2>
-          <ul className="list-disc list-inside space-y-2">
-            <li>
-              Manage your subscription, cancel, or update payment methods at{" "}
-              <a
-                href="https://getmonkmode.app/subscription"
-                className="text-blue-500 underline"
-              >
-                getmonkmode.app/subscription
-              </a>
-              .
-            </li>
-            <li>
-              Free trials last 3 days and convert automatically into a paid plan
-              unless cancelled.
-            </li>
-            <li>
-              Refunds are available within 30 days of purchase. Contact{" "}
-              <b>psylantys@gmail.com</b> to request one.
-            </li>
-          </ul>
-        </section>
-
-        <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-4">Offline Mode</h2>
           <p>
-            After logging in at least once while online and purchasing a
-            subscription, you can access MonkMode offline. All your data —
-            notes, projects, and chats — is stored locally on your device. The
-            only data stored online is your email, password (via Supabase), and
-            survey responses.
+            FRAME is designed to keep your important workspace data on your
+            device wherever possible. If you need help finding or backing up
+            local data, email support.
           </p>
         </section>
 
@@ -83,8 +55,8 @@ export default function HelpPage() {
           <h2 className="text-2xl font-semibold mb-4">Security & Privacy</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>
-              <strong>Stored online:</strong> email, password (via Supabase),
-              and survey answers.
+              <strong>Stored online:</strong> no payment data is collected by
+              this website.
             </li>
             <li>
               <strong>Stored locally only:</strong> all notes, chats, API keys,
@@ -108,11 +80,6 @@ export default function HelpPage() {
             <li>
               Click the thread title or use the sidebar to switch to a focused
               AI chat.
-            </li>
-            <li>
-              To explore <strong>uncensored models</strong>, look for LLMs
-              labeled “uncensored” in the app or use the Ollama library to
-              install others.
             </li>
             <li>
               No known bugs at this time — the app is considered experimental.

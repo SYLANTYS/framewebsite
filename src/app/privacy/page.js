@@ -24,9 +24,8 @@ export default function PrivacyPage() {
         </h2>
         <p className="mb-4">
           We collect your <strong>email address</strong> and answers to{" "}
-          <strong>survey questions</strong> within the app. We also store
-          whether you&apos;re currently subscribed and the date your{" "}
-          <strong>free trial ends</strong>.
+          <strong>survey questions</strong> within the app when you provide
+          them.
         </p>
         <p className="mb-6">
           We do <strong>not</strong> store notes, AI chats, or any other
@@ -36,8 +35,7 @@ export default function PrivacyPage() {
         <h2 className="text-2xl font-semibold mt-10 mb-4">Tracking and Logs</h2>
         <p className="mb-4">
           We do not use any analytics or A/B testing tools. We only track{" "}
-          <strong>error logs</strong> and changes to your subscription status
-          (when you subscribe, cancel, or update).
+          <strong>error logs</strong> needed to keep the service reliable.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">
@@ -45,31 +43,13 @@ export default function PrivacyPage() {
         </h2>
         <ul className="list-disc list-inside mb-6 space-y-2">
           <li>
-            <strong>Supabase:</strong> Stores email, password, and survey data
-            securely.
-          </li>
-          <li>
-            <strong>Stripe:</strong> Handles all payments. We only pass email
-            and user ID as metadata via secure webhooks.
-          </li>
-          <li>
             <strong>OpenAI:</strong> Used to generate AI responses. We do not
             store any chat or prompt data.
           </li>
           <li>
-            <strong>Vercel:</strong> Hosts our app and receives webhook events,
-            but does not store user data directly.
+            <strong>Vercel:</strong> Hosts our website.
           </li>
         </ul>
-
-        <h2 className="text-2xl font-semibold mt-10 mb-4">
-          Payment & Subscription
-        </h2>
-        <p className="mb-6">
-          We do not store your payment method or billing details. All
-          transactions are securely processed through{" "}
-          <strong>Stripe Checkout</strong>.
-        </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">
           Account Deletion & Retention
@@ -79,15 +59,12 @@ export default function PrivacyPage() {
           support to request deletion. We do not offer in-app deletion at this
           time.
         </p>
-        <p className="mb-6">
-          Passwords are securely managed by Supabase and are not accessible to
-          us.
-        </p>
+        <p className="mb-6">We do not collect payment information.</p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">Eligibility</h2>
         <p className="mb-6">
-          Our service is intended for users over the age of 18 due to access to
-          uncensored AI language models.
+          Our service is intended for users old enough to use online services in
+          their location.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">

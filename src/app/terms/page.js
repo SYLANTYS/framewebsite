@@ -15,14 +15,14 @@ export default function TermsPage() {
 
         <p className="mb-6">
           Please read these Terms and Conditions carefully before using the
-          MonkMode desktop application.
+          FRAME desktop application.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">Acknowledgment</h2>
         <p className="mb-4">
-          These Terms govern your access to and use of MonkMode (&quot;the
-          Service&quot;) provided by MonkMode. By creating an account or using
-          the app, you agree to be bound by these Terms.
+          These Terms govern your access to and use of FRAME (&quot;the
+          Service&quot;). By creating an account or using the app, you agree to
+          be bound by these Terms.
         </p>
         <p className="mb-6">
           The Service is available only to individuals over the age of 18. If
@@ -33,36 +33,20 @@ export default function TermsPage() {
           Accounts and Access
         </h2>
         <p className="mb-4">
-          An account is required to access all features of MonkMode. Users must
+          An account may be required to access some features of FRAME. Users must
           register with a valid email and password. Access is not available
           without login.
         </p>
         <p className="mb-6">
-          After payment, you may access offline features locally. If you choose
-          to use your own API keys (e.g., OpenAI), they are stored only on your
-          device and are never uploaded or stored by MonkMode.
-        </p>
-
-        <h2 className="text-2xl font-semibold mt-10 mb-4">
-          Subscriptions & Payments
-        </h2>
-        <p className="mb-4">
-          MonkMode uses Stripe for all billing. Subscriptions are recurring and
-          billed either monthly or yearly. A 3-day free trial is available, and
-          it will automatically convert into a paid subscription unless
-          cancelled before it ends.
-        </p>
-        <p className="mb-6">
-          Refunds are offered within 30 days of purchase. After cancellation,
-          access remains until the end of the billing cycle or trial period.
+          If you choose to use your own API keys, they are stored only on your
+          device and are not uploaded by FRAME.
         </p>
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">Termination</h2>
         <p className="mb-4">
-          You may request deletion of your account via email. MonkMode may
+          You may request deletion of your account via email. FRAME may
           suspend access if malicious behavior is detected, such as attempts to
-          attack our database or abuse our integration with third-party
-          providers like Stripe.
+          attack our systems or abuse third-party providers.
         </p>
         <p className="mb-6">
           We reserve the right to revoke access to the Service if these Terms
@@ -73,14 +57,13 @@ export default function TermsPage() {
           Limitation of Liability
         </h2>
         <p className="mb-4">
-          To the fullest extent permitted by law, MonkMode is not liable for any
+          To the fullest extent permitted by law, FRAME is not liable for any
           indirect, incidental, or consequential damages. Our total liability is
-          limited to the amount you paid for the Service or $100, whichever is
-          lower.
+          limited to $100.
         </p>
         <p className="mb-6">
           The Service is provided &quot;as is&quot; and &quot;as available&quot;
-          without warranty of any kind. MonkMode is not responsible for bugs,
+          without warranty of any kind. FRAME is not responsible for bugs,
           errors, or interruptions and does not guarantee any specific
           functionality or uptime.
         </p>
