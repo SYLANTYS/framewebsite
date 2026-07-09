@@ -1,5 +1,5 @@
 import OfferClient from "./OfferClient";
-import { supabaseAdmin } from "../../../../lib/supabaseAdmin";
+import { getSupabaseAdmin } from "../../../../lib/supabaseAdmin";
 
 function UserLoadingFallback() {
   return (
@@ -20,6 +20,7 @@ export default async function OfferPage({ params }) {
   const timeout = setTimeout(() => controller.abort(), 30000);
 
   try {
+    const supabaseAdmin = getSupabaseAdmin();
     const { data, error: listError } =
       await supabaseAdmin.auth.admin.listUsers();
     error = listError;

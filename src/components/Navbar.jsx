@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { ListIcon } from "@phosphor-icons/react";
 import DownloadButton from "./DownloadButton";
 import Logo from "./Logo";
@@ -31,9 +32,9 @@ export default function Navbar() {
         </div>
         {menuOpen && (
           <div className="flex flex-col space-y-2 mt-4">
-            <a href="/" className="py-2">
+            <Link href="/" className="py-2">
               Home
-            </a>
+            </Link>
             <a href="/subscription" className="py-2">
               Manage Subscription
             </a>
@@ -50,9 +51,9 @@ export default function Navbar() {
     <nav className="flex justify-between items-center p-4 text-white sticky top-0 z-50 backdrop-blur-xl">
       <Logo />
       <div className="flex gap-4 items-center">
-        <a href="/" className="">
+        <Link href="/" className="">
           Home
-        </a>
+        </Link>
         <a href="/subscription" className="">
           Manage Subscription
         </a>

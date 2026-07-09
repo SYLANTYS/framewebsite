@@ -54,7 +54,7 @@ export default function Discount() {
       {/* Text content */}
       <div className="relative z-10 flex flex-col items-center justify-center px-4 py-10 mt-12 mb-4">
         <p className="text-base text-gray-300">
-          Here's a{" "}
+          Here&apos;s a{" "}
           <span className="bg-white text-black mx-1 px-2 py-0.5 rounded-full text-sm font-semibold">
             79% off
           </span>{" "}

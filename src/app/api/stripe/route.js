@@ -1,7 +1,9 @@
-import { stripe } from "@/lib/stripe";
-import { supabaseAdmin } from "@/lib/supabaseAdmin";
+import { getStripe } from "@/lib/stripe";
+import { getSupabaseAdmin } from "@/lib/supabaseAdmin";
 
 export async function POST(req) {
+  const stripe = getStripe();
+  const supabaseAdmin = getSupabaseAdmin();
   const body = await req.text();
   const signature = req.headers.get("stripe-signature");
 

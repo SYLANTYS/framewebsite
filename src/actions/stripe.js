@@ -1,8 +1,9 @@
 "use server";
 
-import { stripe } from "@/lib/stripe";
+import { getStripe } from "@/lib/stripe";
 
 export const subscribeAction = async ({ id, email, product }) => {
+  const stripe = getStripe();
   const prices = [
     "price_1Ro4EDJZXyiCiyglxuirFudv",
     "price_1Ro4DqJZXyiCiygljLXGEvlg",
