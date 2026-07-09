@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { SparkleIcon, LinkSimpleIcon, BrainIcon } from "@phosphor-icons/react";
 
 function ReasonCard({ icon: Icon, title, desc }) {
@@ -21,31 +20,22 @@ export default function WhyChooseMonkMode() {
         FRAME keeps your personal growth tools clean, visual, and easy to
         revisit.
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1fr)] gap-10 max-w-6xl mx-auto px-6 items-center">
-        <Image
-          src="/images/gallery.png"
-          alt="FRAME gallery screen"
-          width={1284}
-          height={2778}
-          className="mx-auto w-full max-w-xs rounded-3xl shadow-2xl ring-1 ring-black/10"
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+        <ReasonCard
+          icon={SparkleIcon}
+          title="Capture More Clearly"
+          desc="FRAME keeps your thoughts, entries, and media close together so it is easier to return to what matters."
         />
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-8">
-          <ReasonCard
-            icon={SparkleIcon}
-            title="Capture More Clearly"
-            desc="FRAME keeps your thoughts, entries, and media close together so it is easier to return to what matters."
-          />
-          <ReasonCard
-            icon={LinkSimpleIcon}
-            title="Stay Connected"
-            desc="Topics, records, feedback, and analytics work together instead of living in separate places."
-          />
-          <ReasonCard
-            icon={BrainIcon}
-            title="Build Better Patterns"
-            desc="Review your gallery and progress over time so reflection turns into momentum."
-          />
-        </div>
+        <ReasonCard
+          icon={LinkSimpleIcon}
+          title="Stay Connected"
+          desc="Topics, records, feedback, and analytics work together instead of living in separate places."
+        />
+        <ReasonCard
+          icon={BrainIcon}
+          title="Build Better Patterns"
+          desc="Review your progress over time so reflection turns into momentum."
+        />
       </div>
     </section>
   );

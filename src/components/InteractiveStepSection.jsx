@@ -25,6 +25,11 @@ const steps = [
     text: "See progress and activity at a glance with analytics that make your habits easier to understand.",
     image: "/images/analytics.png",
   },
+  {
+    title: "Review Your Gallery",
+    text: "Browse saved moments and visual entries in one gallery so your history is easy to revisit.",
+    image: "/images/gallery.png",
+  },
 ];
 
 export default function InteractiveStepSection() {
