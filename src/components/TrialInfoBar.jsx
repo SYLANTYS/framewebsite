@@ -13,7 +13,7 @@ const steps = [
     icon: <BellIcon size={24} />,
     title: "In 2 Days - Reminder",
     description:
-      "We'll send you a reminder inside MonkMode that your trial is ending soon.",
+      "We'll send you a reminder inside FRAME that your trial is ending soon.",
   },
   {
     icon: <CrownSimpleIcon size={24} />,

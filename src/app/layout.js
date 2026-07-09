@@ -1,8 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "MonkMode",
-  description: "Canvas-first offline LLM workspace",
+  title: "FRAME",
+  description: "A focused workspace for topics, records, feedback, and analytics",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {

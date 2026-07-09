@@ -6,24 +6,24 @@ import Image from "next/image";
 
 const steps = [
   {
-    title: "Think Visually in a Canvas",
-    text: "Capture ideas, tasks, or goals directly in your project. Every thought is linked to a persistent AI thread you can revisit, expand, or connect later.",
-    image: "/images/relationships.png",
+    title: "Organize Topics",
+    text: "Keep ideas grouped into clean topics so every thread, note, or reflection has a place to live.",
+    image: "/images/topics.png",
   },
   {
-    title: "Embed Anything, Command Everything",
-    text: "Drop in PDFs, images, and text files, then use @agent to summarize, extract, or analyze. With built-in vision, web scraping, and custom commands like /reset, you never leave your workspace.",
-    image: "/images/embedscreen.png",
+    title: "Record What Matters",
+    text: "Capture moments and thoughts quickly so important context does not disappear between sessions.",
+    image: "/images/record.png",
   },
   {
-    title: "Capture Meaning, Not Just Messages",
-    text: "Notes can show relationships, summaries, and key takeaways from your chat, staying linked to your threads in both chat and canvas views to build a connected structure around your thinking.",
-    image: "/images/expandednotechat.png",
+    title: "Reflect With Feedback",
+    text: "Review feedback in a focused view that helps you understand patterns and keep improving.",
+    image: "/images/feedback.png",
   },
   {
-    title: "Offline or Hybrid, Your Choice",
-    text: "Stay off-the-grid with default Ollama LLMs or plug in API keys for GPT-4, Claude, and more. MonkMode adapts to your privacy and performance needs.",
-    image: "/images/llmshowcase.png",
+    title: "Track Your Analytics",
+    text: "See progress and activity at a glance with analytics that make your habits easier to understand.",
+    image: "/images/analytics.png",
   },
 ];
 
@@ -48,9 +48,9 @@ export default function InteractiveStepSection() {
               key={idx}
               src={step.image}
               alt={step.title}
-              width={1000}
-              height={1000}
-              className={`rounded-xl shadow-lg border border-white transition-all duration-300 ${
+              width={1284}
+              height={2778}
+              className={`w-full max-w-xs rounded-3xl shadow-2xl border border-white/20 transition-all duration-300 ${
                 activeStep === idx ? "opacity-100" : "opacity-0 absolute"
               }`}
             />

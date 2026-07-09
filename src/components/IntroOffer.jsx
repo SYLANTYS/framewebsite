@@ -12,15 +12,15 @@ export default function IntroOffer({ onContinue }) {
           className="text-4xl font-bold mb-14 tracking-wide"
           style={{ wordSpacing: "0.2rem" }}
         >
-          We want you to try MonkMode for free.
+          We want you to try FRAME for free.
         </h1>
 
         <div className="w-full flex justify-center">
           <Image
-            src="/images/blankcanvas.png" // ✅ use your mockup image here
-            alt="MonkMode App Preview"
-            width={1000}
-            height={1000}
+            src="/images/home.png"
+            alt="FRAME app preview"
+            width={1284}
+            height={2778}
             className="rounded-xl"
           />
         </div>

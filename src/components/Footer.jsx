@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Left Section: Logo/Tagline + Download */}
         <div className="flex flex-col gap-4">
           <Logo />
-          <p className="text-sm text-gray-400 mt-2">Download MonkMode</p>
+          <p className="text-sm text-gray-400 mt-2">Download FRAME</p>
           <div className="text-md">
             <DownloadButton />
           </div>
@@ -54,7 +54,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto px-4 mt-6 py-2 border-t border-gray-700 flex flex-col sm:flex-row justify-between items-center text-gray-500">
-        <p>&copy; {new Date().getFullYear()} MonkMode. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} FRAME. All rights reserved.</p>
         <div className="flex space-x-4 mt-4 sm:mt-0">
           {/* Add social icons here if needed */}
         </div>
