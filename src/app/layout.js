@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "FRAME",
   description:
-    "An AI speaking coach for practicing on camera, reviewing delivery, and tracking progress over time.",
+    "An AI speaking app for practicing on camera, reviewing delivery, and tracking progress over time.",
   icons: {
     icon: "/favicon.ico",
   },
