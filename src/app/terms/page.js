@@ -142,6 +142,22 @@ export default function TermsPage() {
           policies.
         </p>
 
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          Apple Standard EULA
+        </h2>
+        <p className="mb-6">
+          If you download FRAME through Apple&apos;s App Store, your use of the
+          app is also subject to Apple&apos;s Standard End User License Agreement,
+          available at{" "}
+          <a
+            href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+            className="font-semibold underline underline-offset-4"
+          >
+            https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+          </a>
+          .
+        </p>
+
         <h2 className="text-2xl font-semibold mt-10 mb-4">Usage Limits</h2>
         <p className="mb-6">
           FRAME may apply usage limits to protect service performance and manage
