@@ -107,10 +107,16 @@ export default function PrivacyPage() {
 
         <h2 className="text-2xl font-semibold mt-10 mb-4">AI Processing</h2>
         <p className="mb-4">
-          FRAME uses AI systems to analyze speaking content. This may involve
-          sending extracted audio, transcript text, selected clip information,
-          low-resolution preview frame grids, video duration, review context,
-          and related metadata to backend services and AI providers.
+          FRAME uses OpenAI and related backend services to analyze speaking
+          content and generate feedback. Before analysis, FRAME may ask for your
+          permission to send video-derived data to OpenAI for AI processing.
+        </p>
+        <p className="mb-4">
+          The data sent for AI analysis may include extracted audio, transcript
+          text, transcript timing, selected clip timestamps, low-resolution
+          preview frame grids, video duration, your review context, speaking
+          goals, pacing preferences, presentation style, and related processing
+          metadata.
         </p>
         <p className="mb-6">
           FRAME does not need to upload your entire original video file for
@@ -142,9 +148,15 @@ export default function PrivacyPage() {
         <p className="mb-4">
           We may share information with service providers that help operate
           FRAME, including providers for authentication, cloud database and
-          backend infrastructure, AI transcription and feedback generation,
+          backend infrastructure, OpenAI-powered transcription and feedback generation,
           analytics, subscription management, App Store purchases, and
           crash/error diagnostics.
+        </p>
+        <p className="mb-4">
+          When you choose to analyze a speaking video, FRAME may share the
+          video-derived data listed in the AI Processing section with OpenAI so
+          OpenAI can help generate transcripts, scores, summaries, clip
+          highlights, and speaking feedback.
         </p>
         <p className="mb-6">
           We may also share information if required by law, to protect rights
