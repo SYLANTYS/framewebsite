@@ -9,10 +9,9 @@ export default function Hook() {
       id="home"
       className="text-center py-20 pb-40 text-white bg-radial-[at_60%_50%] from-zinc-700 to-black to-75%"
     >
-      <h2 className="text-5xl font-bold mb-4">Speak Better on Camera.</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-4">Build Confidence on Camera.</h2>
       <p className="max-w-xl mx-auto mb-6 text-lg">
-        Record or upload a practice video, get AI feedback on engagement,
-        clarity, and confidence, then track your progress as you improve.
+        Upload a video and discover how you come across on camera. Get clear feedback to improve your speaking skills.
       </p>
       <div className="flex justify-center">
         <DownloadButton scale="scale-125" />
